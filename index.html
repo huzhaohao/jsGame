@@ -45,8 +45,8 @@
 			}
 			
 			.end {
-				width: 324px;
-				height: 300px;
+				width: 424px;
+				height: 400px;
 				margin: 30px auto 0;
 				background: #60DFFF;
 				color: white;
@@ -74,8 +74,8 @@
 			#start {
 				font-size: 20px;
 				background: #60DFFF;
-				width: 100px;
-				line-height: 50px;
+				width: 200px;
+				line-height: 100px;
 				margin: 10px auto;
 				color: white;
 				text-align: center;
@@ -112,7 +112,7 @@
 			var num = 4; //黄色方块的数量（随机数的数量）
 			var guanshu = 1; //通关数
 			var times = 0; //点击li的次数
-			var width = 101; //每个li的宽高
+			var width = 201; //每个li的宽高
 			var ary = suiji(num);
 			$(function() {
 				init();
@@ -206,7 +206,7 @@
 			//再玩一次
 			function playAgain() {
 				$('.end').hide();
-				width = 101;
+				width = 201;
 				num = 4;
 				guanshu = 1;
 				$('.guanShu').text(guanshu);
